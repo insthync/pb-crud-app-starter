@@ -1,8 +1,10 @@
 # การใช้เป็นต้นแบบโปรเจค
 
+สำหรับขั้นตอนตั้งแต่เริ่มและตัวอย่างใช้งาน ดู [คู่มือ Bootstrap พร้อมภาพ](BOOTSTRAP-GUIDE.md) และ [คลัง prompt](PROMPT-EXAMPLES.md)
+
 ## สร้าง repository ของแอปใหม่
 
-เมื่ออัปโหลด starter ไป GitHub แล้ว เจ้าของ repository สามารถเปิด Settings → Template repository และใช้ Use this template เพื่อเริ่มแอปใหม่ การตั้งค่านี้ยังไม่ได้ทำให้ในรอบสร้าง local starter
+เจ้าของ repository สามารถเปิด Settings → Template repository และใช้ Use this template เพื่อเริ่มแอปใหม่ ตรวจการตั้งค่านี้ที่ GitHub ก่อนใช้งาน คู่มือนี้ไม่ได้ยืนยันว่าเปิดตัวเลือกดังกล่าวแล้ว
 
 ถ้ายังใช้ local ให้คัดลอกเฉพาะ `public`, `scripts`, `pocketbase/pb_migrations`, `pocketbase/pb_hooks`, `tests`, `docs`, `.gitignore`, `.gitattributes`, `AGENTS.md`, `README.md` แล้วใช้ `git init` ในโฟลเดอร์ใหม่ ห้ามคัดลอกข้อมูล runtime หรือ `.git` ของ starter
 

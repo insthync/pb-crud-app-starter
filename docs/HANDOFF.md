@@ -1,15 +1,23 @@
 # Handoff
 
-Updated: 2026-09-19 (Asia/Bangkok)
+Updated: 2026-09-26 (Asia/Bangkok)
 
 ## State
 
-- Created at `D:/Projects/WebApps/pb-crud-app-starter` as a separate local Git repository. No remote, commit, GitHub template setting or production deployment has been created.
+- Created at `D:/Projects/WebApps/pb-crud-app-starter` as a separate Git repository. Local origin is `https://github.com/insthync/pb-crud-app-starter.git`; latest local commit observed on 2026-09-26 is `49ecbf9` (`feat: first commit`). GitHub template setting and production deployment were not inspected.
 - Stack: static HTML/CSS/JavaScript, PocketBase 0.39.8, SQLite. No frontend build dependencies.
 - Thai login/registration, session handling, shared CRUD items, search/status filtering, pagination, desktop/mobile layouts.
 - Admin member list, name/role/active editing for other members, self-edit protection. All authorization enforced server-side.
 - Only public/ is served. Source OR Planning Board database was never accessed or copied; only its reusable setup scripts, registration hook and ignored PocketBase binary were reused. Source repository files remain unchanged.
 - README and customization guide explain how to start a new app and add fields. AGENTS.md preserves the validation and security conventions.
+- Added Thai illustrated onboarding in `docs/BOOTSTRAP-GUIDE.md` and copyable prompts in `docs/PROMPT-EXAMPLES.md`: requirements, project initialization, maintenance requests, equipment loans, field changes, visual changes, bug reports and handoff. Two PNG diagrams in `docs/assets` have a reproducible Windows PowerShell renderer and are explicitly illustrations, not screenshots.
+
+## Documentation verification — 2026-09-26
+
+- Checked commands, field names and role descriptions against current scripts, HTML and architecture/security documentation.
+- Checked official GitHub template and OpenAI project/AGENTS.md documentation; links included near related guidance.
+- Validated local Markdown links/images, diagram rendering and PowerShell renderer syntax; ran git diff --check.
+- Documentation-only change: no app code, database, migrations or frontend asset versions changed; prior application test results below were not rerun for this edit.
 
 ## Verified
 

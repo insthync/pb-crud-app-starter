@@ -4,6 +4,8 @@
 
 มีระบบสมัครสมาชิก เข้าสู่ระบบ สิทธิ์ viewer/editor/admin หน้า admin จัดการสมาชิก และฟอร์มรายการงานที่เพิ่ม ดู แก้ไข ลบ ค้นหา กรองสถานะ และแบ่งหน้าได้
 
+เริ่มจาก [คู่มือ Bootstrap ภาษาไทยพร้อมภาพ](docs/BOOTSTRAP-GUIDE.md) และ [ตัวอย่าง prompt สร้างเว็บใหม่ด้วย ChatGPT/Codex](docs/PROMPT-EXAMPLES.md)
+
 ## เริ่มใช้งานบน Windows
 
 เปิด PowerShell ในโฟลเดอร์โปรเจค:
